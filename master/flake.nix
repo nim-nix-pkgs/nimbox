@@ -11,7 +11,6 @@
   inputs.src-nimbox-master.ref   = "refs/heads/master";
   inputs.src-nimbox-master.owner = "dom96";
   inputs.src-nimbox-master.repo  = "nimbox";
-  inputs.src-nimbox-master.dir   = "";
   inputs.src-nimbox-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
